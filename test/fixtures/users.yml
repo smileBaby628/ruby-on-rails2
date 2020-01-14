@@ -1,0 +1,4 @@
+ayush:
+  name: Ayush Verma
+  email: ayush.k1998@gmail.com
+  password_digest: <%= User.digest('password') %>
